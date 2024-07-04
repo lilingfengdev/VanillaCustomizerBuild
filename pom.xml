@@ -29,7 +29,36 @@
         <module>VanillaCustomizer-nms-v1_18_R2</module>
         <module>VanillaCustomizer-nms-v1_17_R1</module>
     </modules>
-
+    <repositories>
+        <repository>
+            <id>papermc</id>
+            <url>https://repo.papermc.io/repository/maven-public/</url>
+        </repository>
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>sk89q-repo</id>
+            <url>https://maven.enginehub.org/repo/</url>
+        </repository>
+        <repository>
+            <id>placeholderapi</id>
+            <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
+        </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io/</url>
+        </repository>
+        <repository>
+            <id>viaversion-repo</id>
+            <url>https://repo.viaversion.com</url>
+        </repository>
+        <repository>
+            <id>nms-repo</id>
+            <url>https://repo.codemc.io/repository/nms/</url>
+        </repository>
+    </repositories>
     <pluginRepositories>
         <pluginRepository>
             <id>bytecode.space</id>
@@ -41,11 +70,6 @@
         <!--        <directory>R:\MavenBuildTarget\VanillaCustomizer\${project.artifactId}\target\</directory>-->
         <directory>${project.basedir}/../.cache/targets/${project.artifactId}/target/</directory>
         <extensions>
-            <extension>
-                <groupId>org.apache.maven.extensions</groupId>
-                <artifactId>maven-build-cache-extension</artifactId>
-                <version>1.0.1-SNAPSHOT-unofficial-1.0.0</version>
-            </extension>
             <extension>
                 <groupId>co.leantechniques</groupId>
                 <artifactId>maven-buildtime-extension</artifactId>
