@@ -32,6 +32,10 @@
             <id>matteodev</id>
             <url>https://www.matteodev.it/spigot/public/maven/</url>
         </repository>
+        <repository>
+            <id>nms-repo</id>
+            <url>https://repo.codemc.io/repository/nms/</url>
+        </repository>
     </repositories>
 
     <dependencies>
